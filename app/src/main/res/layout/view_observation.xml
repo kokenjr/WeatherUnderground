@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginStart="@dimen/card_start_margin"
+    android:layout_marginEnd="@dimen/card_start_margin"
+    android:layout_marginBottom="@dimen/card_overlap_margin"
+    android:paddingStart="@dimen/card_start_padding"
+    android:paddingEnd="@dimen/card_start_padding"
+    android:paddingTop="@dimen/card_top_padding"
+    android:paddingBottom="@dimen/card_bottom_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg"
+    android:id="@+id/rlObservation">
+    <ImageView
+        android:id="@+id/ivObservationIcon"
+        android:layout_width="@dimen/observation_icon_width"
+        android:layout_height="@dimen/observation_icon_width"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="@dimen/card_start_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivObservationIcon"
+        android:text=""
+        android:id="@+id/tvObservationTime"
+        style="@style/ObservationTime"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivObservationIcon"
+        android:text=""
+        android:layout_below="@+id/tvObservationTime"
+        android:id="@+id/tvCondition"
+        style="@style/ObservationCondition"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCondition"
+        android:layout_toEndOf="@+id/ivObservationIcon"
+        android:layout_marginTop="@dimen/observation_humidity_top_margin"
+        android:id="@+id/tvHumidity"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHumidity"
+        android:layout_toEndOf="@+id/ivObservationIcon"
+        android:id="@+id/tvPressure"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tvTempHigh"
+        style="@style/ObservationTime"/>
+
+
+</RelativeLayout>

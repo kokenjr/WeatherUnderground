@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherUnderground</string>
+    <string name="error_occurred">Error occurred while loading weather data.</string>
+
+    <!-- Summary -->
+    <string name="humidity">Humidity:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="pressure_unit">inHg</string>
+    <string name="wind">Wind:</string>
+    <string name="speed_unit">mph</string>
+    <string name="alpharetta">Alpharetta, GA</string>
+
+</resources>

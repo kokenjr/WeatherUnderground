@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Loading Dialog -->s
+    <dimen name="loading_dialog_width">50dp</dimen>
+
+    <!-- Summary -->
+    <dimen name="app_bar_height">320dp</dimen>
+    <dimen name="summary_icon_width">110dp</dimen>
+    <dimen name="summary_start_padding">35dp</dimen>
+    <dimen name="summary_end_padding">20dp</dimen>
+    <dimen name="summary_humidity_top_margin">10dp</dimen>
+
+    <!-- Observations -->
+    <dimen name="card_start_margin">15dp</dimen>
+    <dimen name="card_overlap_margin">-25dp</dimen>
+    <dimen name="card_start_padding">10dp</dimen>
+    <dimen name="card_top_padding">20dp</dimen>
+    <dimen name="card_bottom_padding">20dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="card_bg_bottom_margin">8dp</dimen>
+    <dimen name="observation_icon_width">50dp</dimen>
+    <dimen name="observation_humidity_top_margin">5dp</dimen>
+    <dimen name="observations_bottom_padding">30dp</dimen>
+    <dimen name="location_top_margin">20dp</dimen>
+
+
+</resources>
